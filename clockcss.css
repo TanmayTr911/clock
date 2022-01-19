@@ -1,0 +1,91 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to right, rgb(169, 220, 253), rgb(250, 250, 170));
+  overflow: hidden;
+}
+
+.clk {
+  display: flex;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+  min-height: 60vh;
+  color: rgb(78, 104, 121);
+}
+
+.anlg {
+  margin-top: 5%;
+
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("clk.png");
+  border-radius: 50%;
+}
+
+.min {
+  position: absolute;
+  left: 50%;
+  bottom: 60.5%;
+  width: 6px;
+  height: 17%;
+
+  background-color: rgb(5, 5, 5);
+  border-radius: 5px;
+  transform-origin: bottom;
+
+  transform: rotate(30deg) translateX(-50%);
+}
+.sec {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  bottom: 60.5%;
+  width: 2px;
+  height: 20%;
+  border-radius: 2px;
+  background-color: rgb(247, 52, 3);
+  transform: rotate(30deg);
+  transform-origin: bottom;
+
+  --rot: 0;
+  transform: translateX(-50%) rotate(calc(var(--rot) * 1deg));
+}
+.hr {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  bottom: 60.5%;
+  width: 8px;
+  height: 15%;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 3);
+  transform: rotate(30deg);
+  transform-origin: bottom;
+  transform: translateX(-50%);
+}
+
+.cen {
+  position: absolute;
+  left: 50%;
+  bottom: 59%;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 12);
+  transform: translateX(-50%);
+}
+
+.dig {
+  text-align: center;
+  margin-top: 30px;
+}
+.dig > p,
+#dt,
+#tm {
+  display: inline;
+  font-size: 1.7rem;
+}
