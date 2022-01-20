@@ -16,7 +16,7 @@ body {
 }
 
 .anlg {
-  margin-top: 5%;
+  margin-top: 2%;
 
   width: 350px;
   height: 350px;
@@ -29,7 +29,7 @@ body {
 .min {
   position: absolute;
   left: 50%;
-  bottom: 60.5%;
+  bottom: 55.5%;
   width: 6px;
   height: 17%;
 
@@ -43,7 +43,7 @@ body {
   position: absolute;
   position: absolute;
   left: 50%;
-  bottom: 60.5%;
+  bottom: 55.5%;
   width: 2px;
   height: 20%;
   border-radius: 2px;
@@ -58,7 +58,7 @@ body {
   position: absolute;
   position: absolute;
   left: 50%;
-  bottom: 60.5%;
+  bottom: 55.5%;
   width: 8px;
   height: 15%;
   border-radius: 5px;
@@ -71,7 +71,7 @@ body {
 .cen {
   position: absolute;
   left: 50%;
-  bottom: 59%;
+  bottom: 55.5%;
   height: 20px;
   width: 20px;
   border-radius: 50%;
