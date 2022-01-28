@@ -18,8 +18,8 @@ body {
 .anlg {
   margin-top: 2%;
 
-  width: 350px;
-  height: 350px;
+  width: 60vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("clk.png");
